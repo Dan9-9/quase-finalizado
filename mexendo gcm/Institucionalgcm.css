@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    color: rgb(218, 212, 212);
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.imgcabeca {
+    display: flex;
+    width: 210px;
+    height: 200px;
+    margin-top: 0px;
+    
+}
+
+
+
+.cabeca {
+    background: no-repeat center/cover url("img/gcmfarda.jpg");
+    height: calc(96vh - 700px);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    border: 1px solid grey;
+}
+
+.inst{
+    
+    color:black;
+    margin-top: 20px;
+}
+
+.inst h1 {
+    text-align: center;
+    margin-right: 500px;
+    
+    
+}
+
+.post{
+   
+    height: 330px;
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 610px;
+    
+
+}
+
+.foto{
+    width: 600px;
+    height: 400px;
+    
+    
+    
+}
+
+
+.foto img {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    
+    
+
+}
+
+.noticia {
+    margin: 50px;
+    height: 50px;
+}
+
+.noticia h1{
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.redacao{
+    text-align: justify;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+}
+
+.redacao1 p {
+    color: black;
+    margin: 8px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin-bottom: 10px;
+}
+
+.footer {
+    color: black;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.footer address {
+    margin: 10px;
+    margin-top: 15px;
+    
+}
+
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: gray;
+    
+
+}
+
+.footer .social a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    margin: 0 8px;
+    opacity: 0.75;
+    margin-top: 10px;
+
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+}
+
+.footer .social .face {
+    color: blue;
+}
+
+.footer .social .twi {
+    color: blue;
+}
+
+.footer .social .insta {
+    color: rgba(192, 15, 98, 0.747);
+}
+
+
+    
+.footer .sbc{
+    background-color: #fff;
+    
+}
+
+.footer img {
+   display: flex;
+   margin: auto;
+   
+
+}
+
+.footer aside {
+    text-align: center;
+
+    
+    
+}

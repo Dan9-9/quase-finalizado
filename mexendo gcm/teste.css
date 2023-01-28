@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    color: rgb(218, 212, 212);
+    background-color: rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.wapper h1 {
+    text-align: center;
+    margin: 60px 0 40px 0;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.lista-item {
+    background: rgb(77, 75, 75);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 6px;
+}
+
+.conteudo-titulo {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.4em;
+    font-family: monospace;
+}
+
+.faq-conteudo {
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: .875em;
+    line-height: 1.4em;
+    display: none;
+}
+
+.trigger-input {
+    display: none;
+}
+
+
